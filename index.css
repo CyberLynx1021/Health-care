@@ -1,0 +1,38 @@
+.full__page{
+    /* min-height: 100vh; */
+    display: flex;
+    flex-direction: column;
+
+}.nav__bar{
+    height: 165px;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color:#f0cf92;
+}
+
+.nav__content--wrapper{
+    align-items: center!important;
+    justify-content: space-between!important;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+  } 
+
+  .links__ac{
+    justify-content: space-between !important;
+      display: flex;
+      width: 100%;
+      max-width: 430px;
+      align-items: center !important;
+      
+  }
+
+  .blinker__logo{
+    height: 90px;
+    width: 150px;
+    background-color: aqua;
+  }

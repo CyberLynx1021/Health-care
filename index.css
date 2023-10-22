@@ -4,13 +4,13 @@
     flex-direction: column;
 
 }.nav__bar{
-    height: 165px;
+    /* height: 165px; */
     display: flex;
     align-items: center;
     padding: 0 50px;
     font-size: 18px;
     font-weight: 600;
-    background-color:#f0cf92;
+    background-color:#3b78b8;
 }
 
 .nav__content--wrapper{
@@ -32,7 +32,24 @@
   }
 
   .blinker__logo{
-    height: 90px;
-    width: 150px;
+    height: 134;
+    width: 157px;
     background-color: aqua;
+    border-radius: 9999px;
+    border-style:double;
+  }
+
+  .home__link{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .find__link{
+    text-decoration: none;
+    color: white;
+  }
+
+  .contact__btn{
+    text-decoration: none;
+    color: white;
   }
